@@ -1,0 +1,2940 @@
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+/*
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34582707-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+*/
+</script>
+
+
+	<link rel="stylesheet" type="text/css" href="/academic/jq/media/css/jquery.dataTables.css">
+	<link rel="stylesheet" type="text/css" href="/academic/jq/resources/syntax/shCore.css">
+	<link rel="stylesheet" type="text/css" href="/academic/jq/resources/demo.css">
+	<style type="text/css" class="init">
+
+	</style>
+	<script type="text/javascript" language="javascript" src="/academic/jq/media/js/jquery.js"></script>
+	<script type="text/javascript" language="javascript" src="/academic/jq/media/js/jquery.dataTables.js"></script>
+	<script type="text/javascript" language="javascript" src="/academic/jq/resources/syntax/shCore.js"></script>
+
+
+
+<html>
+<head><title>Running courses</title>
+
+<style type="text/css"> 
+.place
+{
+z-index: +1000;
+left: 25%;
+top: 10%;
+max-height : 80%;
+max-width : 50%;
+position: fixed;
+border: 1px solid grey;
+background-color: #eeeeee;
+visibility: hidden;
+box-shadow: 0px 0px 25px #888888;
+}
+.placea
+{
+z-index: +1000;
+left: 25%;
+top: 10%;
+max-height : 80%;
+max-width : 50%;
+position: fixed;
+border: 1px solid grey;
+background-color: #eeeeee;
+visibility: hidden;
+box-shadow: 0px 0px 25px #888888;
+}
+
+</style>
+<script>
+<!--
+var newwindow;
+function poptastic(url)
+{
+        newwindow=window.open(url,'name','height=50,width=200');
+        if (window.focus) {newwindow.focus()}
+}
+-->
+function show(no){
+
+	//alert(no);
+	var plc = document.getElementById("place"+no);
+	plc.style.visibility='visible';
+	var w = plc.style.width;
+	//alert();
+	//plc.style.left = (screen.width/2);
+	
+	var parent = document.getElementById("pop-up-box");
+	//parent.style.visibility='visible';
+	
+	
+	
+	
+}
+function hide(no){
+
+	//alert("1");
+	var plc = document.getElementById("place"+no);
+	//var parent = document.getElementById("pop-up-box");
+	plc.style.visibility='hidden';
+	//alert(plc);
+	//plc.innerHTML = "hello";
+	
+}
+
+
+function show1(no){
+
+	//alert(no);
+	var plc = document.getElementById("1place"+no);
+	plc.style.visibility='visible';
+	
+	var parent = document.getElementById("pop-up-box");
+	//parent.style.visibility='visible';
+	
+	
+	
+	
+}
+function hide1(no){
+
+	//alert("1");
+	var plc = document.getElementById("1place"+no);
+	//var parent = document.getElementById("pop-up-box");
+	plc.style.visibility='hidden';
+	//alert(plc);
+	//plc.innerHTML = "hello";
+	
+}
+
+</script>
+</head>
+<body>
+	
+	<table color=gray border="1" cellpadding="5" cellspacing="0" width="100%" align="center" >
+
+		<tr><td colspan="14" align="center"><b>Running courses for year 2015-2016 and semester 2 </b></td></tr>		
+		<tr><td colspan="14" align="center">
+ 			<form method="post" action="RunningCourses.jsp">
+				<select name="year">
+					
+						<option 
+						
+						value="1991">1991-1992
+						</option>
+					
+						<option 
+						
+						value="1992">1992-1993
+						</option>
+					
+						<option 
+						
+						value="1993">1993-1994
+						</option>
+					
+						<option 
+						
+						value="1994">1994-1995
+						</option>
+					
+						<option 
+						
+						value="1995">1995-1996
+						</option>
+					
+						<option 
+						
+						value="1996">1996-1997
+						</option>
+					
+						<option 
+						
+						value="1997">1997-1998
+						</option>
+					
+						<option 
+						
+						value="1998">1998-1999
+						</option>
+					
+						<option 
+						
+						value="1999">1999-2000
+						</option>
+					
+						<option 
+						
+						value="2000">2000-2001
+						</option>
+					
+						<option 
+						
+						value="2001">2001-2002
+						</option>
+					
+						<option 
+						
+						value="2002">2002-2003
+						</option>
+					
+						<option 
+						
+						value="2003">2003-2004
+						</option>
+					
+						<option 
+						
+						value="2004">2004-2005
+						</option>
+					
+						<option 
+						
+						value="2005">2005-2006
+						</option>
+					
+						<option 
+						
+						value="2006">2006-2007
+						</option>
+					
+						<option 
+						
+						value="2007">2007-2008
+						</option>
+					
+						<option 
+						
+						value="2008">2008-2009
+						</option>
+					
+						<option 
+						
+						value="2009">2009-2010
+						</option>
+					
+						<option 
+						
+						value="2010">2010-2011
+						</option>
+					
+						<option 
+						
+						value="2011">2011-2012
+						</option>
+					
+						<option 
+						
+						value="2012">2012-2013
+						</option>
+					
+						<option 
+						
+						value="2013">2013-2014
+						</option>
+					
+						<option 
+						
+						value="2014">2014-2015
+						</option>
+					
+						<option 
+						 selected 
+						value="2015">2015-2016
+						</option>
+					
+						<option 
+						
+						value="2016">2016-2017
+						</option>
+					
+					
+				</select>
+				<select name="semester">
+					<option
+					
+					 value="1">1 - Autumn</option>
+					<option 
+					 selected 
+					value="2">2 - Spring</option>
+					<option 	value="3">3 - Summer</option>
+					<option 	value="4">4 - winter</option>
+				</select>
+				<input type="hidden" name="deptcd" value="EE" />
+				<input type="submit" name="submit" value="GO" />
+			</form>
+		</td></tr>
+		
+		<tr><td colspan="14" align="right">Instructor Status A=Associate<br><span style="color:red">*:Subject to approval</span></td></tr>
+		
+		<tr>
+			<td>Sr no.</td>
+			<td>Type</td>
+			<td><b>Course Code</b></td>
+			<td><b>Course Name</b></td>
+<!-- 			<td><b>Instructor Name</b></td> -->
+<!-- 			<td><b>Instructor Status</b></td> -->
+			<td>Instructor(s)</td>
+			<td>Venue</td>
+			<td width=100><b>Slot</b></td>
+			<td><b>Division</b></td>
+			
+			<td><b>Biometric Attendance Enabled?</b></td>
+			<td><b>Registration Limit</b></td>
+			
+			<td><b>Restrictions</b></td>
+			<td><b>Division<br/> Definition</b></td>
+						
+			
+		</tr>
+		
+
+			<tr bgcolor="#CCCC99">
+				<td align=left >1</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 112"> EE 112</a>
+				</td>
+				<td align=left >Introduction to Electronics</td>
+				<td align=left >I - Dipankar Saha<br></td>
+				<td align=left >&nbsp;Class Room : LH 102</td>
+				
+				<td width=200 align=left >8  <hr/>Mon-8A-14:00:00-15:25:00<br>Thu-8B-14:00:00-15:25:00<br></td>
+				<td align=left >&nbsp;S1 </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				
+								<td align=left >&nbsp;<a href="javascript:show1(0)">View</a>
+				
+				<div id="1place0" class="placea">
+				<table border="1" cellpadding="5" cellspacing="0" width="100%" align="center">
+				<tr><td align="center" ><b>Section Detail for Course EE 112</b></td></tr>
+				</table>
+				
+				<div style="overflow: auto; max-height: 400px">
+				<table border="1" cellpadding="5" cellspacing="0" >
+				
+				<tr><td> S2  </td><td> 140020003,140020005,14D170002,140110007,140020012,14D100001,140010008,140260004,140020023,14B030009,140040011,140110033,140020039,14B030021,14D260012,14D100018,140100111,150260001,15D070001,15D260001,15D070002,15D260002,15D260003,15D070003,15D070006,15D260004,15D070007,15D070011,15D070013,15D260005,150260002,15D070015,150260003,15D070017,150260004,150260005,150260006,15D070020,15D070022,15D070024,15D070025,15D070028,15D070029,15D070030,15D070031,150260007,15D070032,150260009,15D070034,15D070035,15D070037,150260010,15D260006,15D260007,150260011,15D070040,15D070041,150260012,150260013,15D260008,150260014,150260015,150260016,15D070046,150260017,150260018,15D070049,150260019,15D070050,150260020,150260021,15D070054,150260022,15D260009,150260023,15D070057,15D070058,15D260010,15D070060,150260024,15D260011,15D260012,15D070062,150260025,150260026,15D260013,150260027,15D070063,150260028,150260029,150260030, </td>
+					</tr>	
+					<tr><td> S1  </td><td> 150070001,150070002,150070003,150070004,150070005,150070006,150070007,15D070004,15D070005,15D070008,150070008,15D070009,150070009,15D070010,150070010,15D070012,150070011,15D070014,150070012,150070013,150070014,150070015,15D070016,150070016,150070017,150070018,150070019,150070020,15D070018,150070021,15D070019,150070022,15D070021,150070023,15D070023,15D070026,15D070027,150070024,150070025,150070026,150070027,150070028,15D070033,150070029,150070030,150070031,150070032,150070033,150070034,150070035,150070036,15D070036,15D070038,15D070039,150070037,150070038,150070039,150070040,15D070042,15D070043,15D070044,15D070045,150070041,15D070047,150070042,15D070048,150070043,15D070051,150070044,150070045,15D070052,15D070053,150070046,15D070055,150070047,15D070056,150070048,150070049,150070050,15D070059,15D070061,150070051,150070052,150070053,150070054,150070055,150070056,150070057,150070058,150070059,150070060,15D070064, </td>
+					</tr>	
+					
+				
+				</table></div>
+				<table border="1" cellpadding="5" cellspacing="0" width="100%" align="center"><tr><td colspan='7' align="center"><input type="button" onclick="hide1(0)" value="close"/></td></tr></table>
+				
+				</div></td>
+					
+				
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >2</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 112"> EE 112</a>
+				</td>
+				<td align=left >Introduction to Electronics</td>
+				<td align=left >I - M. B. Patil<br></td>
+				<td align=left >&nbsp;Class Room : LH 302</td>
+				
+				<td width=200 align=left >8  <hr/>Mon-8A-14:00:00-15:25:00<br>Thu-8B-14:00:00-15:25:00<br></td>
+				<td align=left >&nbsp;S2 </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				
+								<td align=left >&nbsp;<a href="javascript:show1(1)">View</a>
+				
+				<div id="1place1" class="placea">
+				<table border="1" cellpadding="5" cellspacing="0" width="100%" align="center">
+				<tr><td align="center" ><b>Section Detail for Course EE 112</b></td></tr>
+				</table>
+				
+				<div style="overflow: auto; max-height: 400px">
+				<table border="1" cellpadding="5" cellspacing="0" >
+				
+				<tr><td> S2  </td><td> 140020003,140020005,14D170002,140110007,140020012,14D100001,140010008,140260004,140020023,14B030009,140040011,140110033,140020039,14B030021,14D260012,14D100018,140100111,150260001,15D070001,15D260001,15D070002,15D260002,15D260003,15D070003,15D070006,15D260004,15D070007,15D070011,15D070013,15D260005,150260002,15D070015,150260003,15D070017,150260004,150260005,150260006,15D070020,15D070022,15D070024,15D070025,15D070028,15D070029,15D070030,15D070031,150260007,15D070032,150260009,15D070034,15D070035,15D070037,150260010,15D260006,15D260007,150260011,15D070040,15D070041,150260012,150260013,15D260008,150260014,150260015,150260016,15D070046,150260017,150260018,15D070049,150260019,15D070050,150260020,150260021,15D070054,150260022,15D260009,150260023,15D070057,15D070058,15D260010,15D070060,150260024,15D260011,15D260012,15D070062,150260025,150260026,15D260013,150260027,15D070063,150260028,150260029,150260030, </td>
+					</tr>	
+					<tr><td> S1  </td><td> 150070001,150070002,150070003,150070004,150070005,150070006,150070007,15D070004,15D070005,15D070008,150070008,15D070009,150070009,15D070010,150070010,15D070012,150070011,15D070014,150070012,150070013,150070014,150070015,15D070016,150070016,150070017,150070018,150070019,150070020,15D070018,150070021,15D070019,150070022,15D070021,150070023,15D070023,15D070026,15D070027,150070024,150070025,150070026,150070027,150070028,15D070033,150070029,150070030,150070031,150070032,150070033,150070034,150070035,150070036,15D070036,15D070038,15D070039,150070037,150070038,150070039,150070040,15D070042,15D070043,15D070044,15D070045,150070041,15D070047,150070042,15D070048,150070043,15D070051,150070044,150070045,15D070052,15D070053,150070046,15D070055,150070047,15D070056,150070048,150070049,150070050,15D070059,15D070061,150070051,150070052,150070053,150070054,150070055,150070056,150070057,150070058,150070059,150070060,15D070064, </td>
+					</tr>	
+					
+				
+				</table></div>
+				<table border="1" cellpadding="5" cellspacing="0" width="100%" align="center"><tr><td colspan='7' align="center"><input type="button" onclick="hide1(1)" value="close"/></td></tr></table>
+				
+				</div></td>
+					
+				
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >3</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 204"> EE 204</a>
+				</td>
+				<td align=left >Analog Circuits</td>
+				<td align=left >I - J.Mukherjee<br></td>
+				<td align=left >&nbsp;Class Room : LH 302</td>
+				
+				<td width=200 align=left >4  <hr/>Mon-4A-11:35:00-12:30:00<br>Thu-4C-09:30:00-10:25:00<br>Tue-4B-08:30:00-09:25:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >4</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 207"> EE 207</a>
+				</td>
+				<td align=left >Electronic Devices & Circuits</td>
+				<td align=left >I - Ashwin Tulapurkar<br></td>
+				<td align=left >&nbsp;Class Room : EEG-101</td>
+				
+				<td width=200 align=left >5  <hr/>Fri-5B-09:30:00-10:55:00<br>Wed-5A-09:30:00-10:55:00<br></td>
+				<td align=left >&nbsp;M  </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;60</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >5</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 209"> EE 209</a>
+				</td>
+				<td align=left >Electrical/Electronics Lab.</td>
+				<td align=left >A - Khosla N.K.<br>I - Dipti Gupta<br></td>
+				<td align=left >&nbsp;&nbsp;</td>
+				
+				<td width=200 align=left >L2 <hr/>Tue-L2-14:00:00-16:55:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >6</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 210"> EE 210</a>
+				</td>
+				<td align=left >Signals & System</td>
+				<td align=left >I - Preeti Rao<br></td>
+				<td align=left >&nbsp;Class Room : LH 302</td>
+				
+				<td width=200 align=left >3  <hr/>Mon-3A-10:35:00-11:30:00<br>Thu-3C-08:30:00-09:25:00<br>Tue-3B-11:35:00-12:30:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >7</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 214"> EE 214</a>
+				</td>
+				<td align=left >Digital Circuits Lab</td>
+				<td align=left >A - M.Shojaei Baghini<br>I - Saurabh Lodha<br></td>
+				<td align=left >&nbsp;&nbsp;</td>
+				
+				<td width=200 align=left >L4 <hr/>Fri-L4-14:00:00-16:55:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >8</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 222"> EE 222</a>
+				</td>
+				<td align=left >Electrical Machines and Power Electronics</td>
+				<td align=left >I - M. Chandorkar<br></td>
+				<td align=left >&nbsp;Class Room : LH 302</td>
+				
+				<td width=200 align=left >6  <hr/>Fri-6B-11:05:00-12:30:00<br>Wed-6A-11:05:00-12:30:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >9</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 224"> EE 224</a>
+				</td>
+				<td align=left >Digital Systems</td>
+				<td align=left >I - Desai Madhav<br></td>
+				<td align=left >&nbsp;Class Room : LC 202</td>
+				
+				<td width=200 align=left >1  <hr/>Mon-1A-08:30:00-09:25:00<br>Thu-1C-10:35:00-11:30:00<br>Tue-1B-09:30:00-10:25:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >10</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 230"> EE 230</a>
+				</td>
+				<td align=left >Analog Lab</td>
+				<td align=left >A - K L. Narasimhan<br>I - M. B. Patil<br></td>
+				<td align=left >&nbsp;&nbsp;</td>
+				
+				<td width=200 align=left >L2 <hr/>Tue-L2-14:00:00-16:55:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >11</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 234"> EE 234</a>
+				</td>
+				<td align=left >Machines Lab</td>
+				<td align=left >A - Anshuman Shukla<br>I - Kulkarni S V<br></td>
+				<td align=left >&nbsp;&nbsp;</td>
+				
+				<td width=200 align=left >L1 <hr/>Mon-L1-14:00:00-16:55:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >12</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 302"> EE 302</a>
+				</td>
+				<td align=left >Control Systems</td>
+				<td align=left >I - Debasattam Pal<br></td>
+				<td align=left >&nbsp;Class Room : LH 301</td>
+				
+				<td width=200 align=left >3  <hr/>Mon-3A-10:35:00-11:30:00<br>Thu-3C-08:30:00-09:25:00<br>Tue-3B-11:35:00-12:30:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >13</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 321"> EE 321</a>
+				</td>
+				<td align=left >Power Electronics</td>
+				<td align=left >I - Chatterjee Kishore<br></td>
+				<td align=left >&nbsp;Class Room : EEG-102</td>
+				
+				<td width=200 align=left >5  <hr/>Fri-5B-09:30:00-10:55:00<br>Wed-5A-09:30:00-10:55:00<br></td>
+				<td align=left >&nbsp;M  </td>
+				
+				<td align=left >&nbsp;</td>
+				<td align=left >&nbsp;60</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >14</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 324"> EE 324</a>
+				</td>
+				<td align=left >Control Systems Lab</td>
+				<td align=left >A - Debraj Chakraborty<br>I - M Belur<br></td>
+				<td align=left >&nbsp;&nbsp;</td>
+				
+				<td width=200 align=left >L1 <hr/>Mon-L1-14:00:00-16:55:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >15</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 325"> EE 325</a>
+				</td>
+				<td align=left >Probability and Random Processes</td>
+				<td align=left >I - Merchant S N<br></td>
+				<td align=left >&nbsp;Class Room : EEG-001</td>
+				
+				<td width=200 align=left >5  <hr/>Fri-5B-09:30:00-10:55:00<br>Wed-5A-09:30:00-10:55:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >16</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 325"> EE 325</a>
+				</td>
+				<td align=left >Probability and Random Processes</td>
+				<td align=left >I - Merchant S N<br></td>
+				<td align=left >&nbsp;Class Room : EEG-001</td>
+				
+				<td width=200 align=left >5  <hr/>Fri-5B-09:30:00-10:55:00<br>Wed-5A-09:30:00-10:55:00<br></td>
+				<td align=left >&nbsp;M  </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;60</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >17</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 328"> EE 328</a>
+				</td>
+				<td align=left >Digital Communications</td>
+				<td align=left >I - Karandikar Abhay<br></td>
+				<td align=left >&nbsp;Class Room : LH 301</td>
+				
+				<td width=200 align=left >1  <hr/>Mon-1A-08:30:00-09:25:00<br>Thu-1C-10:35:00-11:30:00<br>Tue-1B-09:30:00-10:25:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CC9999">
+				<td align=left >18</td>
+				<td align=left >tutorial</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 328"> EE 328</a>
+				</td>
+				<td align=left >Digital Communications</td>
+				<td align=left >I - I97018 - Abhay  Karandikar<br></td>
+				<td align=left >&nbsp;Class Room : LT 205</td>
+				
+				<td width=200 align=left >14<hr/>Tue-14A-17:30:00-18:55:00<br></td>
+				<td align=left >&nbsp;</td>
+				
+				<td align=left >&nbsp;</td>
+				<td align=left >&nbsp;</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CC9999">
+				<td align=left >19</td>
+				<td align=left >tutorial</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 328"> EE 328</a>
+				</td>
+				<td align=left >Digital Communications</td>
+				<td align=left >I - I97018 - Abhay  Karandikar<br></td>
+				<td align=left >&nbsp;Class Room : LT 204</td>
+				
+				<td width=200 align=left >14<hr/>Tue-14A-17:30:00-18:55:00<br></td>
+				<td align=left >&nbsp;</td>
+				
+				<td align=left >&nbsp;</td>
+				<td align=left >&nbsp;</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CC9999">
+				<td align=left >20</td>
+				<td align=left >tutorial</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 328"> EE 328</a>
+				</td>
+				<td align=left >Digital Communications</td>
+				<td align=left >I - I97018 - Abhay  Karandikar<br></td>
+				<td align=left >&nbsp;Class Room : LT 202</td>
+				
+				<td width=200 align=left >14<hr/>Tue-14A-17:30:00-18:55:00<br></td>
+				<td align=left >&nbsp;</td>
+				
+				<td align=left >&nbsp;</td>
+				<td align=left >&nbsp;</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >21</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 334"> EE 334</a>
+				</td>
+				<td align=left >Power Systems</td>
+				<td align=left >A - C.S. Solanki<br>I - Soman S.A.<br></td>
+				<td align=left >&nbsp;Class Room : LH 301</td>
+				
+				<td width=200 align=left >4  <hr/>Mon-4A-11:35:00-12:30:00<br>Thu-4C-09:30:00-10:25:00<br>Tue-4B-08:30:00-09:25:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >22</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 338"> EE 338</a>
+				</td>
+				<td align=left >Digital Signal Processing</td>
+				<td align=left >I - Gadre V.M.<br></td>
+				<td align=left >&nbsp;Class Room A1 - A2</td>
+				
+				<td width=200 align=left >2  <hr/>Mon-2A-09:30:00-10:25:00<br>Thu-2C-11:35:00-12:30:00<br>Tue-2B-10:35:00-11:30:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >23</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 342"> EE 342</a>
+				</td>
+				<td align=left >Control and Communications</td>
+				<td align=left >I - Animesh Kumar<br></td>
+				<td align=left >&nbsp;Class Room : EEG-103</td>
+				
+				<td width=200 align=left >5  <hr/>Fri-5B-09:30:00-10:55:00<br>Wed-5A-09:30:00-10:55:00<br></td>
+				<td align=left >&nbsp;M  </td>
+				
+				<td align=left >&nbsp;</td>
+				<td align=left >&nbsp;60</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >24</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 344"> EE 344</a>
+				</td>
+				<td align=left >Electronic Design Lab</td>
+				<td align=left >A - Kumar Appaiah<br>A - Nikhil Karamchandani<br>A - Pandey P.C.<br>A - S.Gupta<br>I - J.John<br></td>
+				<td align=left >&nbsp;&nbsp;</td>
+				
+				<td width=200 align=left >&nbsp;<hr/></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >25</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 352"> EE 352</a>
+				</td>
+				<td align=left >Digital Signal Processing Lab</td>
+				<td align=left >I - V Raj Babu<br></td>
+				<td align=left >&nbsp;&nbsp;</td>
+				
+				<td width=200 align=left >L3 <hr/>Thu-L3-14:00:00-16:55:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >26</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 457"> EE 457</a>
+				</td>
+				<td align=left >Compound Semiconductor Material and Devices</td>
+				<td align=left >I - Brij Mohan Arora<br></td>
+				<td align=left >&nbsp;Class Room : EEG-001</td>
+				
+				<td width=200 align=left >1  <hr/>Mon-1A-08:30:00-09:25:00<br>Thu-1C-10:35:00-11:30:00<br>Tue-1B-09:30:00-10:25:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >27</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 590"> EE 590</a>
+				</td>
+				<td align=left >Foundations of Project</td>
+				<td align=left >I - Pradeep R. Nair<br></td>
+				<td align=left >&nbsp;Class Room : EEG-001</td>
+				
+				<td width=200 align=left >X  <hr/>Wed-XC-17:30:00-18:55:00<br>Wed-XD-19:00:00-20:25:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >28</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 602"> EE 602</a>
+				</td>
+				<td align=left >Radar Systems</td>
+				<td align=left >I - K P Ray<br></td>
+				<td align=left >&nbsp;Class Room : EEG-001</td>
+				
+				<td width=200 align=left >12 <hr/>Mon-12A-17:30:00-18:55:00<br>Thu-12B-17:30:00-18:55:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >29</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 608"> EE 608</a>
+				</td>
+				<td align=left >Adaptive Signal Processing</td>
+				<td align=left >I - Kumar Appaiah<br></td>
+				<td align=left >&nbsp;Class Room : EEG-001</td>
+				
+				<td width=200 align=left >2  <hr/>Mon-2A-09:30:00-10:25:00<br>Thu-2C-11:35:00-12:30:00<br>Tue-2B-10:35:00-11:30:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >30</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 614"> EE 614</a>
+				</td>
+				<td align=left >Solid State Microwave Devices and their Applications</td>
+				<td align=left >I - Kumar Girish<br></td>
+				<td align=left >&nbsp;Class Room : EEG-001</td>
+				
+				<td width=200 align=left >15 <hr/>Fri-15B-19:00:00-20:25:00<br>Tue-15A-19:00:00-20:25:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >31</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 619"> EE 619</a>
+				</td>
+				<td align=left >Radio Frequency Microelectronics Chip Design</td>
+				<td align=left >I - S.Gupta<br></td>
+				<td align=left >&nbsp;Class Room : EEG-002</td>
+				
+				<td width=200 align=left >13 <hr/>Mon-13A-19:00:00-20:25:00<br>Thu-13B-19:00:00-20:25:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >32</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 620"> EE 620</a>
+				</td>
+				<td align=left >Physics of Transistors</td>
+				<td align=left >I - Udayan Ganguli<br></td>
+				<td align=left >&nbsp;Class Room : EEG-001</td>
+				
+				<td width=200 align=left >12 <hr/>Mon-12A-17:30:00-18:55:00<br>Thu-12B-17:30:00-18:55:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >33</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 621"> EE 621</a>
+				</td>
+				<td align=left >Markov Chains and Queuing Systems</td>
+				<td align=left >I - Jayakrishnan Nair<br></td>
+				<td align=left >&nbsp;Class Room : LC 202</td>
+				
+				<td width=200 align=left >14 <hr/>Fri-14B-17:30:00-18:55:00<br>Tue-14A-17:30:00-18:55:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >34</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 622"> EE 622</a>
+				</td>
+				<td align=left >Optimal Control Systems</td>
+				<td align=left >I - Debraj Chakraborty<br></td>
+				<td align=left >&nbsp;Class Room : EEG-101</td>
+				
+				<td width=200 align=left >2  <hr/>Mon-2A-09:30:00-10:25:00<br>Thu-2C-11:35:00-12:30:00<br>Tue-2B-10:35:00-11:30:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >35</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 625"> EE 625</a>
+				</td>
+				<td align=left >Bio Sensors & BioMEMS</td>
+				<td align=left >I - Rao Ramagopal<br></td>
+				<td align=left >&nbsp;Class Room : LC 202</td>
+				
+				<td width=200 align=left >15 <hr/>Fri-15B-19:00:00-20:25:00<br>Tue-15A-19:00:00-20:25:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >36</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 636"> EE 636</a>
+				</td>
+				<td align=left >Matrix Computations</td>
+				<td align=left >I - Pillai Harish<br></td>
+				<td align=left >&nbsp;Class Room : EEG-101</td>
+				
+				<td width=200 align=left >14 <hr/>Fri-14B-17:30:00-18:55:00<br>Tue-14A-17:30:00-18:55:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >37</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 651"> EE 651</a>
+				</td>
+				<td align=left >Digital Protection of Power Systems</td>
+				<td align=left >I - Prashant Navalkar<br></td>
+				<td align=left >&nbsp;Class Room : EEG-102</td>
+				
+				<td width=200 align=left >12 <hr/>Mon-12A-17:30:00-18:55:00<br>Thu-12B-17:30:00-18:55:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >38</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 654"> EE 654</a>
+				</td>
+				<td align=left >Power Electronics - II</td>
+				<td align=left >I - Agarwal Vivek<br></td>
+				<td align=left >&nbsp;Class Room : EEG-102</td>
+				
+				<td width=200 align=left >2  <hr/>Mon-2A-09:30:00-10:25:00<br>Thu-2C-11:35:00-12:30:00<br>Tue-2B-10:35:00-11:30:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >39</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 668"> EE 668</a>
+				</td>
+				<td align=left >Systems Design</td>
+				<td align=left >I - Sharma Dinesh<br></td>
+				<td align=left >&nbsp;Class Room : EEG-001</td>
+				
+				<td width=200 align=left >3  <hr/>Mon-3A-10:35:00-11:30:00<br>Thu-3C-08:30:00-09:25:00<br>Tue-3B-11:35:00-12:30:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >40</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 672"> EE 672</a>
+				</td>
+				<td align=left >Microelectronics Lab</td>
+				<td align=left >A - Anil K.G.<br>I - Swaroop Ganguly<br></td>
+				<td align=left >&nbsp;&nbsp;</td>
+				
+				<td width=200 align=left >L4 <hr/>Fri-L4-14:00:00-16:55:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >41</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 686"> EE 686</a>
+				</td>
+				<td align=left >H V D C Transmission</td>
+				<td align=left >I - Himanshu J. Bahirat<br></td>
+				<td align=left >&nbsp;Class Room : EEG-102</td>
+				
+				<td width=200 align=left >6  <hr/>Fri-6B-11:05:00-12:30:00<br>Wed-6A-11:05:00-12:30:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >42</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 701"> EE 701</a>
+				</td>
+				<td align=left >Introduction to MEMS</td>
+				<td align=left >I - S. Duttagupta<br></td>
+				<td align=left >&nbsp;Class Room : EEG-002</td>
+				
+				<td width=200 align=left >6  <hr/>Fri-6B-11:05:00-12:30:00<br>Wed-6A-11:05:00-12:30:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CC9999">
+				<td align=left >43</td>
+				<td align=left >tutorial</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 702"> EE 702</a>
+				</td>
+				<td align=left >Computer Vision</td>
+				<td align=left >I - 151079 - Subhasis  Chaudhuri<br></td>
+				<td align=left >&nbsp;Class Room : EEG-001</td>
+				
+				<td width=200 align=left >7<hr/>Wed-7A-08:30:00-09:25:00<br></td>
+				<td align=left >&nbsp;</td>
+				
+				<td align=left >&nbsp;</td>
+				<td align=left >&nbsp;</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >44</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 702"> EE 702</a>
+				</td>
+				<td align=left >Computer Vision</td>
+				<td align=left >I - Chaudhuri Subhasis<br></td>
+				<td align=left >&nbsp;Class Room : EEG-001</td>
+				
+				<td width=200 align=left >14 <hr/>Fri-14B-17:30:00-18:55:00<br>Tue-14A-17:30:00-18:55:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >45</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 705"> EE 705</a>
+				</td>
+				<td align=left >V L S I Design Lab</td>
+				<td align=left >I - Virendra Singh<br></td>
+				<td align=left >&nbsp;&nbsp;</td>
+				
+				<td width=200 align=left >L2 <hr/>Tue-L2-14:00:00-16:55:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >46</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 706"> EE 706</a>
+				</td>
+				<td align=left >Communication Networks</td>
+				<td align=left >I - Gaurav S. Kasbekar<br></td>
+				<td align=left >&nbsp;Class Room : LH 101</td>
+				
+				<td width=200 align=left >1  <hr/>Mon-1A-08:30:00-09:25:00<br>Thu-1C-10:35:00-11:30:00<br>Tue-1B-09:30:00-10:25:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >47</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 708"> EE 708</a>
+				</td>
+				<td align=left >Information Theory  & Coding</td>
+				<td align=left >I - Sibi Raj B. Pillai<br></td>
+				<td align=left >&nbsp;Class Room : EEG-001</td>
+				
+				<td width=200 align=left >13 <hr/>Mon-13A-19:00:00-20:25:00<br>Thu-13B-19:00:00-20:25:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >48</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 709"> EE 709</a>
+				</td>
+				<td align=left >Testing and Verification of VLSI Circuits</td>
+				<td align=left >I - Virendra Singh<br></td>
+				<td align=left >&nbsp;Class Room : EEG-103</td>
+				
+				<td width=200 align=left >4  <hr/>Mon-4A-11:35:00-12:30:00<br>Thu-4C-09:30:00-10:25:00<br>Tue-4B-08:30:00-09:25:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >49</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 712"> EE 712</a>
+				</td>
+				<td align=left >Embedded Systems Design</td>
+				<td align=left >I - Pandey P.C.<br>I - Sharma Dinesh<br></td>
+				<td align=left >&nbsp;Class Room : EEG-101</td>
+				
+				<td width=200 align=left >12 <hr/>Mon-12A-17:30:00-18:55:00<br>Thu-12B-17:30:00-18:55:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >50</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 714"> EE 714</a>
+				</td>
+				<td align=left >Behavioral Theory of Systems</td>
+				<td align=left >I - Debasattam Pal<br></td>
+				<td align=left >&nbsp;Class Room : EEG-101</td>
+				
+				<td width=200 align=left >1  <hr/>Mon-1A-08:30:00-09:25:00<br>Thu-1C-10:35:00-11:30:00<br>Tue-1B-09:30:00-10:25:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >51</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 719"> EE 719</a>
+				</td>
+				<td align=left >Mixed-Signal VLSI Design</td>
+				<td align=left >I - M.Shojaei Baghini<br></td>
+				<td align=left >&nbsp;Class Room : EEG-002</td>
+				
+				<td width=200 align=left >1  <hr/>Mon-1A-08:30:00-09:25:00<br>Thu-1C-10:35:00-11:30:00<br>Tue-1B-09:30:00-10:25:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >52</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 720"> EE 720</a>
+				</td>
+				<td align=left >An Introduction to Number Theory and Cryptography</td>
+				<td align=left >I - Sule V.R.<br></td>
+				<td align=left >&nbsp;Class Room : LA 102</td>
+				
+				<td width=200 align=left >6  <hr/>Fri-6B-11:05:00-12:30:00<br>Wed-6A-11:05:00-12:30:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;<a href="javascript:show(51)">View</a>
+				
+				<div id="place51" class="place">
+				
+			<table border="1" cellpadding="5" cellspacing="0" style="z-index: +1001" width="100%">
+			<tr><td align="center"><b>Restrictions for Course EE 720</b></td></tr>
+			</table>
+			<div style="overflow:auto; max-height: 400px;">
+			<table  border="1" cellpadding="5" cellspacing="0" width="100%">
+			<tr><td  align="center">Course Code</td>
+			<td  align="center">Batch Year</td>
+			<td  align="center">Department</td>
+			<td  align="center">Program</td>
+			<td  align="center">Allowed</td>
+			<td  align="center">Overridable</td>
+			</tr>
+			
+				<tr>
+				<td>EE 720</td>
+				<td>ALL</td>
+				<td>ALL</td>
+				<td>ALL</td>
+				<td>Allowed</td>
+				<td>Non-Overridable</td>
+				</tr>	
+				
+				<tr>
+				<td>EE 720</td>
+				<td>2014</td>
+				<td>ALL</td>
+				<td>5 Year Integrated M.Sc.</td>
+				<td>Deny</td>
+				<td>Non-Overridable</td>
+				</tr>	
+				
+				<tr>
+				<td>EE 720</td>
+				<td>2014</td>
+				<td>ALL</td>
+				<td>B.Des.</td>
+				<td>Deny</td>
+				<td>Non-Overridable</td>
+				</tr>	
+				
+				<tr>
+				<td>EE 720</td>
+				<td>2014</td>
+				<td>ALL</td>
+				<td>B.Tech</td>
+				<td>Deny</td>
+				<td>Non-Overridable</td>
+				</tr>	
+				
+				<tr>
+				<td>EE 720</td>
+				<td>2014</td>
+				<td>ALL</td>
+				<td>Dual Degree Programme</td>
+				<td>Deny</td>
+				<td>Non-Overridable</td>
+				</tr>	
+				
+				<tr>
+				<td>EE 720</td>
+				<td>2014</td>
+				<td>ALL</td>
+				<td>Four Year B.S.</td>
+				<td>Deny</td>
+				<td>Non-Overridable</td>
+				</tr>	
+				
+				<tr>
+				<td>EE 720</td>
+				<td>2015</td>
+				<td>ALL</td>
+				<td>5 Year Integrated M.Sc.</td>
+				<td>Deny</td>
+				<td>Non-Overridable</td>
+				</tr>	
+				
+				<tr>
+				<td>EE 720</td>
+				<td>2015</td>
+				<td>ALL</td>
+				<td>B.Des.</td>
+				<td>Deny</td>
+				<td>Non-Overridable</td>
+				</tr>	
+				
+				<tr>
+				<td>EE 720</td>
+				<td>2015</td>
+				<td>ALL</td>
+				<td>B.Tech</td>
+				<td>Deny</td>
+				<td>Non-Overridable</td>
+				</tr>	
+				
+				<tr>
+				<td>EE 720</td>
+				<td>2015</td>
+				<td>ALL</td>
+				<td>Dual Degree Programme</td>
+				<td>Deny</td>
+				<td>Non-Overridable</td>
+				</tr>	
+				
+				<tr>
+				<td>EE 720</td>
+				<td>2015</td>
+				<td>ALL</td>
+				<td>Four Year B.S.</td>
+				<td>Deny</td>
+				<td>Non-Overridable</td>
+				</tr>	
+				
+			
+			</table>
+			</div>
+			<table style="z-index: +1001" width="100%"><tr><td colspan='7' align="center"><input type="button" onclick="hide(51)" value="close"/></td></tr></table>
+			</div>
+			</td>
+				
+			
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >53</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 722"> EE 722</a>
+				</td>
+				<td align=left >Restructured Power Systems</td>
+				<td align=left >I - Anupama Kowli<br></td>
+				<td align=left >&nbsp;Class Room : EEG-102</td>
+				
+				<td width=200 align=left >14 <hr/>Fri-14B-17:30:00-18:55:00<br>Tue-14A-17:30:00-18:55:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >54</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 724"> EE 724</a>
+				</td>
+				<td align=left >Nanoelectronics</td>
+				<td align=left >I - Souvik Mahapatra<br></td>
+				<td align=left >&nbsp;Class Room : EEG-002</td>
+				
+				<td width=200 align=left >3  <hr/>Mon-3A-10:35:00-11:30:00<br>Thu-3C-08:30:00-09:25:00<br>Tue-3B-11:35:00-12:30:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >55</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 725"> EE 725</a>
+				</td>
+				<td align=left >Computational Electromagnetics</td>
+				<td align=left >I - Shevgaonkar R.K.<br></td>
+				<td align=left >&nbsp;Class Room : EEG-001</td>
+				
+				<td width=200 align=left >6  <hr/>Fri-6B-11:05:00-12:30:00<br>Wed-6A-11:05:00-12:30:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >56</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 727"> EE 727</a>
+				</td>
+				<td align=left >Physics of Nanoscale Devices - II</td>
+				<td align=left >I - Bhaskaran Muralidharan<br></td>
+				<td align=left >&nbsp;Class Room : EEG-103</td>
+				
+				<td width=200 align=left >14 <hr/>Fri-14B-17:30:00-18:55:00<br>Tue-14A-17:30:00-18:55:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >57</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 728"> EE 728</a>
+				</td>
+				<td align=left >Growth and Characterization of Nano-electronic Materials</td>
+				<td align=left >I - Apurba Laha<br></td>
+				<td align=left >&nbsp;Class Room : EEG-002</td>
+				
+				<td width=200 align=left >14 <hr/>Fri-14B-17:30:00-18:55:00<br>Tue-14A-17:30:00-18:55:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >58</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 734"> EE 734</a>
+				</td>
+				<td align=left >Adavced Probability and Random Processes for Engineers</td>
+				<td align=left >I - Vivek S. Borkar<br></td>
+				<td align=left >&nbsp;Class Room : EEG-301</td>
+				
+				<td width=200 align=left >6  <hr/>Fri-6B-11:05:00-12:30:00<br>Wed-6A-11:05:00-12:30:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >59</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 739"> EE 739</a>
+				</td>
+				<td align=left >Processor Design</td>
+				<td align=left >I - Virendra Singh<br></td>
+				<td align=left >&nbsp;Class Room : EEG-103</td>
+				
+				<td width=200 align=left >2  <hr/>Mon-2A-09:30:00-10:25:00<br>Thu-2C-11:35:00-12:30:00<br>Tue-2B-10:35:00-11:30:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >60</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 747"> EE 747</a>
+				</td>
+				<td align=left >Simulation of Power System Transients</td>
+				<td align=left >I - Kulkarni A.M.<br></td>
+				<td align=left >&nbsp;Class Room : EEG-103</td>
+				
+				<td width=200 align=left >3  <hr/>Mon-3A-10:35:00-11:30:00<br>Thu-3C-08:30:00-09:25:00<br>Tue-3B-11:35:00-12:30:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >61</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 752"> EE 752</a>
+				</td>
+				<td align=left >Model Ordr Reduction: Theory and Algorithms </td>
+				<td align=left >I - M Belur<br></td>
+				<td align=left >&nbsp;Class Room : EEG-101</td>
+				
+				<td width=200 align=left >3  <hr/>Mon-3A-10:35:00-11:30:00<br>Thu-3C-08:30:00-09:25:00<br>Tue-3B-11:35:00-12:30:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >62</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 753"> EE 753</a>
+				</td>
+				<td align=left >High Power Converters and their Utility Applications</td>
+				<td align=left >I - Anshuman Shukla<br></td>
+				<td align=left >&nbsp;Class Room : EEG-102</td>
+				
+				<td width=200 align=left >15 <hr/>Fri-15B-19:00:00-20:25:00<br>Tue-15A-19:00:00-20:25:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >63</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 754"> EE 754</a>
+				</td>
+				<td align=left >Advanced Error Correcting Codes</td>
+				<td align=left >I - S. Vijayakumaran<br></td>
+				<td align=left >&nbsp;Class Room : EEG-103</td>
+				
+				<td width=200 align=left >12 <hr/>Mon-12A-17:30:00-18:55:00<br>Thu-12B-17:30:00-18:55:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >64</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 758"> EE 758</a>
+				</td>
+				<td align=left >Internet Economics</td>
+				<td align=left >I - Manjunath D.<br></td>
+				<td align=left >&nbsp;Class Room : EEG-002</td>
+				
+				<td width=200 align=left >5  <hr/>Fri-5B-09:30:00-10:55:00<br>Wed-5A-09:30:00-10:55:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >65</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 760"> EE 760</a>
+				</td>
+				<td align=left >Advanced Network Analysis</td>
+				<td align=left >I - Narayanan H.<br></td>
+				<td align=left >&nbsp;Class Room : EEG-002</td>
+				
+				<td width=200 align=left >9  <hr/>Mon-9A-15:30:00-16:55:00<br>Thu-9B-15:30:00-16:55:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >66</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 764"> EE 764</a>
+				</td>
+				<td align=left >Wireless & Mobile Communication</td>
+				<td align=left >I - P.Chaporkar<br></td>
+				<td align=left >&nbsp;Class Room : EEG-102</td>
+				
+				<td width=200 align=left >3  <hr/>Mon-3A-10:35:00-11:30:00<br>Thu-3C-08:30:00-09:25:00<br>Tue-3B-11:35:00-12:30:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >67</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 791"> EE 791</a>
+				</td>
+				<td align=left >Power Electronic Converters for Renewable Energy</td>
+				<td align=left >I - Fernandes B.G.<br></td>
+				<td align=left >&nbsp;Class Room : EEG-102</td>
+				
+				<td width=200 align=left >1  <hr/>Mon-1A-08:30:00-09:25:00<br>Thu-1C-10:35:00-11:30:00<br>Tue-1B-09:30:00-10:25:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+			<tr bgcolor="#CCCC99">
+				<td align=left >68</td>
+				<td align=left >timetable</td>
+				<td align=left >
+					<!-- <a href="< % =in.ac.iitb.asc.academic.Configuration.courseUpdateCourseDetailsURL%>< % =URLEncoder.encode((String)h.get("crsecode"), "UTF8")%>">< % =h.get("crsecode")%></a>  -->
+					<a href="../CourseRegistration/Common/crsedetail.jsp?ccd=EE 792"> EE 792</a>
+				</td>
+				<td align=left >Communication Skills -II</td>
+				<td align=left >I - B.K.Dey<br></td>
+				<td align=left >&nbsp;Class Room : EEG-101</td>
+				
+				<td width=200 align=left >4  <hr/>Mon-4A-11:35:00-12:30:00<br>Thu-4C-09:30:00-10:25:00<br>Tue-4B-08:30:00-09:25:00<br></td>
+				<td align=left >&nbsp;   </td>
+				
+				<td align=left >&nbsp;Biometric Enabled</td>
+				<td align=left >&nbsp;0</td>
+				
+				
+		
+				<td align=left >&nbsp;</td>
+				
+				
+			
+			
+		
+				
+				
+				<td align=left >&nbsp;</td>
+			
+				
+					<td>&nbsp;</td>
+					
+			
+				
+			</tr>
+		
+	</table>
+	
+	
+		
+		
+		
+		
+		
+
+	
+</body>
+</html>
+
+

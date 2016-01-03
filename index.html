@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Course List</title>
+    <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div>
+            <h2>
+                <center>My Courses</center>
+            </h2>
+        </div>
+        <div class="col-lg-12">
+            <div class="row-fluid">
+                <div class="col-lg-2">
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="courseSearch" data-provide="typeahead" autocomplete="off">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button"><i class="glyphicon glyphicon-search"></i></button>
+                        </span>
+
+                    </div><!-- /input-group -->
+                </div><!-- /.col-lg-2 -->
+                <div class="col-lg-10">
+                    <table class="table" id="courseTable">
+                        <tr>
+                            <th> </th>
+                            <th>Course Code</th>
+                            <th>Course Name</th>
+                            <th>Slot</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="resources/js/jquery.min.js"></script>
+<script type="text/javascript" src="resources/js/populate.js"></script>
+<script type="text/javascript" src="resources/js/bootstrap3-typeahead.js"></script>
+</html>
